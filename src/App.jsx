@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import './App.css';
-import useAudioPlayer from './useAudioPlayer';
-import useSpotifyPlayer from './useSpotifyPlayer';
-import useTheme from './useTheme';
+import useAudioPlayer from './hooks/useAudioPlayer.js';
+import useSpotifyPlayer from './hooks/useSpotifyPlayer.js';
+import useTheme from './hooks/useTheme.js';
 import useLocalPlaylist from './hooks/useLocalPlaylist.js';
 import usePanelViews from './hooks/usePanelViews.js';
 import useRecordAnimation from './hooks/useRecordAnimation.js';

@@ -8,7 +8,7 @@
  */
 
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import { takeShuffleIndex } from './shuffleBag.js';
+import { takeShuffleIndex } from '../shuffleBag.js';
 
 const FAILED_TRACK_DELAY = 1200;
 

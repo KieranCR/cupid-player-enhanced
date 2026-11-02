@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
-import { takeShuffleIndex } from './shuffleBag.js';
+import { takeShuffleIndex } from '../shuffleBag.js';
 
 /**
  * Local audio player hook (HTML5 Audio).
